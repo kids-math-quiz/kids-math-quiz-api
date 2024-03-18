@@ -36,3 +36,8 @@ Services: Aqui ficam os serviços da aplicação, que implementam a lógica de n
 Entities: Esta pasta normalmente contém as entidades do domínio da aplicação, como objetos que representam conceitos do mundo real (por exemplo, Usuário, Produto, Pedido, etc.). Essas entidades frequentemente correspondem a tabelas em um banco de dados em aplicações que usam um modelo relacional.
 
 Repository: Aqui é onde residem as implementações de acesso a dados, responsáveis por interagir com o banco de dados ou qualquer outro mecanismo de persistência. Eles fornecem métodos para criar, ler, atualizar e excluir (CRUD) entidades no banco de dados, abstraindo os detalhes de armazenamento e recuperando dados para os serviços e controladores.
+
+
+DIAGRAMA GIT FLOW DO PROJETO
+![Linha do tempo](https://github.com/kids-math-quiz/kids-math-quiz-api/assets/44899195/af844cbf-5037-4dcc-b4b2-6f38eea48523)
+
