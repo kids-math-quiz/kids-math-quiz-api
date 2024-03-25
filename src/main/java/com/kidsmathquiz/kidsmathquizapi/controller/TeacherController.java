@@ -6,6 +6,8 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+
+
 @RestController
 @RequestMapping("/api/v1/auth")
 @RequiredArgsConstructor
@@ -19,11 +21,17 @@ public class TeacherController {
         return null;
     }
 
-//    @GetMapping("/signup")
-//
-//    @GetMapping("/signup/{id}")
-//
-//    @PutMapping("/signup/{id}")
-//
-//    @DeleteMapping("signp/{id}")
+    @GetMapping("/signup")
+    public ResponseEntity<list<Teacher>> getAllTeacher() { return null; }
+
+    @GetMapping("/si" +
+            "gnup/{id}")
+    public ResponseEntity<Teacher> getOneSignup() {return null;}
+
+    @PutMapping("/signup/{id}")
+    public ResponseEntity<object> updatesingup() {return null;}
+
+    @DeleteMapping("/signup{id}")
+    public ResponseEntity<object> deletesignup() {return null;}
+
 }
