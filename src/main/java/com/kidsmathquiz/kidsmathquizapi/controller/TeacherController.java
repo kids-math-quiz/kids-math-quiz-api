@@ -19,7 +19,14 @@ public class TeacherController {
 
     @PostMapping("/signup")
     public ResponseEntity<Teacher> teacherSignUp(@RequestBody SignUpRequest request) {
-        return null;
+        String name = request.getName();
+        String email = request.getEmail();
+        String password = request.getPassword();
+        Date birthday = request.getBirthday();
+
+        Teacher teacher = new Teacher();
+
+        return new ResponseEntity<>(teacher, HttpStatus.OK);
     }
 
 }
