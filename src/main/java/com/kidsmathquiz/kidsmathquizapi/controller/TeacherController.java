@@ -28,9 +28,9 @@ public class TeacherController {
     public ResponseEntity<Teacher> getOneSignup() {return null;}
 
     @PutMapping("/signup/{id}")
-    public ResponseEntity<Teacher> updatesingup() {return null;}
+    public ResponseEntity<Teacher> updateSingup() {return null;}
 
     @DeleteMapping("/signup/{id}")
-    public ResponseEntity<Teacher> deletesignup() {return null;}
+    public ResponseEntity<Teacher> deleteSignup() {return null;}
 
 }
