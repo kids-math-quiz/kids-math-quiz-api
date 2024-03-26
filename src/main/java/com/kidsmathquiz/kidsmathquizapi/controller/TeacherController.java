@@ -22,16 +22,15 @@ public class TeacherController {
     }
 
     @GetMapping("/signup")
-    public ResponseEntity<list<Teacher>> getAllTeacher() { return null; }
+    public ResponseEntity<Teacher> getAllTeacher() { return null; }
 
-    @GetMapping("/si" +
-            "gnup/{id}")
+    @GetMapping("/signup/{id}")
     public ResponseEntity<Teacher> getOneSignup() {return null;}
 
     @PutMapping("/signup/{id}")
-    public ResponseEntity<object> updatesingup() {return null;}
+    public ResponseEntity<Teacher> updatesingup() {return null;}
 
-    @DeleteMapping("/signup{id}")
-    public ResponseEntity<object> deletesignup() {return null;}
+    @DeleteMapping("/signup/{id}")
+    public ResponseEntity<Teacher> deletesignup() {return null;}
 
 }
